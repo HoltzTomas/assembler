@@ -51,4 +51,5 @@ Dividendo: equ 34 ;Define una constante llamada Dividendo que equivale a 34
 Divisor: equ 5 ;Define una constante llamada Divisor que equivale a 5
 Resto: db 0;
 Cociente: db 0;
-    end inicio
+    ds 20;Reservo 20 bytes para el stack
+stack:   end inicio
